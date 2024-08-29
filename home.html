@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/min/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment"></script> <!-- Use Moment Adapter -->
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <form id="weather-form">
+            <input type="text" id="city-input" placeholder="Enter city name" required>
+            <button type="submit">Get Weather</button>
+        </form>
+        <div id="weather-result">
+            <div id="current-weather" class="weather-card"></div>
+            <div id="7-day-forecast" class="forecast-container"></div>
+            <div id="hourly-forecast"></div>
+            <div id="weather-alerts"></div>
+            <div id="graph-container" class="graph-container"></div> <!-- Container for graphs -->
+        </div>
+    </div>
+    <script src="script_sheet.js"></script>
+</body>
+</html>
