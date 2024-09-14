@@ -7,7 +7,7 @@ document.getElementById('weather-form').addEventListener('submit', function(even
 });
 
 async function getWeather(city) {
-    const apiKey = 'd54bd7e7b3ab46ee92b42054240208'; // Replace with your actual API key
+    const apiKey = '123131351515154641656'; 
     const currentWeatherUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
     const forecastUrl = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=7`;
     const alertsUrl = `https://api.weatherapi.com/v1/alerts.json?key=${apiKey}&q=${city}`;
