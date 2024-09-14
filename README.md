@@ -58,3 +58,6 @@ We welcome contributions to improve this project. If you have suggestions or bug
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
+
+## Caution
+Some features are not working as I am currently making this project
