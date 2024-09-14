@@ -1,6 +1,4 @@
-/* styles.css */
 
-/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -10,7 +8,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Container Styling */
 .container {
     max-width: 1400px;
     margin: 0 auto;
@@ -22,7 +19,6 @@ body {
     overflow: hidden;
 }
 
-/* Title Styles */
 h1 {
     text-align: center;
     font-size: 3em;
@@ -31,7 +27,6 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
-/* Form Styles */
 #weather-form {
     display: flex;
     justify-content: center;
@@ -85,7 +80,6 @@ button:active {
     gap: 40px;
 }
 
-/* Current Weather Card */
 .weather-card {
     background: rgba(0, 0, 0, 0.7);
     padding: 30px;
@@ -114,7 +108,6 @@ button:active {
     margin: 20px 0;
 }
 
-/* 7-Day Forecast Styles */
 #7-day-forecast {
     display: flex;
     overflow-x: auto;
@@ -160,7 +153,6 @@ button:active {
     height: 50px;
 }
 
-/* Graph Container Styles */
 .graph-container {
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
@@ -169,7 +161,6 @@ button:active {
     display: none; /* Hidden by default */
 }
 
-/* Hourly Forecast Styles */
 #hourly-forecast {
     display: flex;
     flex-wrap: wrap;
@@ -203,7 +194,6 @@ button:active {
     margin: 10px 0;
 }
 
-/* Heading Styles */
 h2 {
     font-size: 2.2em;
     margin-bottom: 20px;
@@ -220,12 +210,10 @@ h3 {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-/* Paragraph Styles */
 p {
     margin: 10px 0;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     #7-day-forecast {
         flex-direction: column;
@@ -237,7 +225,6 @@ p {
     }
 }
 
-/* Additional Features */
 @keyframes pulse {
     0% {
         opacity: 0.7;
@@ -254,7 +241,6 @@ p {
     animation: pulse 2s infinite;
 }
 
-/* Additional Styling for Buttons and Inputs */
 input::placeholder {
     color: #ffaad4;
     opacity: 0.8;
